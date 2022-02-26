@@ -19,7 +19,6 @@ public class UserService {
         return userRepository.findAll();
     }
 
-
     public Optional<Users> getUser(String name){
         return userRepository.findByName(name);
     }
@@ -43,9 +42,8 @@ public class UserService {
         user.setZipcode(users.getZipcode());
         user.setArea(users.getArea());
         user.setProvince(users.getProvince());
+
         userRepository.save(user);
-
-
     }
 
 

@@ -1,6 +1,5 @@
 package com.example.week1.models;
 
-
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
