@@ -1,23 +1,27 @@
 ## Assignments for Java Boot Camp
 * [Week 1 :: Design and Develop RESTful API with Spring Boot](https://github.com/up1/assignment-java-boot-camp/wiki/Week-01)
 
+#Design Flow
 
+##Search
+เปรียบเราเป็น user เข้ามา shopping สินค้าในที่นี้จะหารองเท้า NMD จะไปหาที่ช่อง Search โดยจะใช้ keyword ในการหาคือคำว่า NMD
+เเละกดค้าหา ก็จะมีสินค้าที่มีคำว่า NMD ขึ้นมาให้เราเลือก
 
-## Resources
-* [Spring Boot Reference](https://spring.io/projects/spring-boot)
-* https://www.baeldung.com/ 
-* https://start.spring.io/
-* [Git commit message](https://www.conventionalcommits.org/en/v1.0.0/)
+##Choose product
+เมื่อเราเลือกสินค้ามาสินค้าจะเเสดงข้อมูลของสินค้าที่เราเลือกขึ้นมาโดยจะเป็นชื่อสินค้า ราคา เเละ จำนวนชิ้น
 
+##Add product
+เมื่อเราดูสินค้าที่เราเลือกเเล้ว ก็กดใส่ลงตะกร้าเเล้วข้อมูลสินค้าที่เราเลือกจะมาเเสดงไว้ที่ตะกร้าสินค้า
 
+##Bucket
+เมื่อเข้ามาในหน้าตะกร้าสินค้าเเล้วจะมีรายละเอียดของสินค้าเเละราคาของสินค้าที่เราเลือกซื้อก่อนจะทำการกดสั่งซื้อ
 
+##Shipping
+เมื่อเรากดสั่งซื้อเรียบร้อย จะขึ้นรายละเอียดของเราขึ้นมา เช่น ชื่อ, ที่อยู่ที่จะจัดส่ง, เบอร์โทร
 
+##Payment
+เมื่อเช็คที่อยู่เรียบร้อยก็กด Confirm เเล้วจะพาเราไปหน้าจ่ายเงินในที่นี้เลือกใช้ช่องทางการชำระด้วยบัตร Debit ซึ่งจะมีข้อมูลของบัตรขึ้นมาให้เราเช็คความเรียบร้อย
+เมื่อถูกต้องก็ทำการ Confirm
 
-
-```mermaid
-sequenceDiagram
-    actor Alice
-    actor Bob
-    Alice->>Bob: Hi Bob
-    Bob->>Alice: Hi Alice
-```
+##Summary
+เมื่อเสร็ตขั้นนตอนทุกอย่างก็จะขึ้นรายการสรุปสินค้าที่สั่งซื้อ
